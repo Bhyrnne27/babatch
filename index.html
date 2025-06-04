@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      background: #f0f0f0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      width: 320px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .card-top {
+      background: #2196F3;
+      padding: 40px 20px 20px;
+    }
+
+    .avatar {
+      background: #e0e0e0;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      margin: auto;
+      margin-top: -40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      color: #2196F3;
+    }
+
+    .card-body {
+      padding: 20px;
+    }
+
+    .card-body h3 {
+      margin: 10px 0 5px;
+      font-size: 20px;
+    }
+
+    .card-body p {
+      margin: 0;
+      color: #888;
+      font-size: 14px;
+    }
+
+    .social-icons {
+      margin: 20px 0;
+    }
+
+    .social-icons a {
+      color: white;
+      background: #333;
+      width: 35px;
+      height: 35px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 6px;
+      border-radius: 50%;
+      text-decoration: none;
+    }
+
+    .social-icons a.facebook { background: #3b5998; }
+    .social-icons a.twitter { background: #1da1f2; }
+    .social-icons a.instagram { background: #e4405f; }
+    .social-icons a.youtube { background: #ff0000; }
+
+    .buttons {
+      margin: 15px 0;
+    }
+
+    .buttons button {
+      border: none;
+      padding: 10px 20px;
+      margin: 0 10px;
+      border-radius: 10px;
+      background: #2196F3;
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      border-top: 1px solid #eee;
+      padding: 15px 0;
+      color: #666;
+      font-size: 14px;
+    }
+
+    .stats i {
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="card-top">
+      <div class="avatar"><i class="fas fa-user-tie"></i></div>
+    </div>
+    <div class="card-body">
+      <h3>Bhyrnne Jabin Cejudo </h3>
+      <p>database administrator</p>
+
+      <div class="social-icons">
+        <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+      </div>
+
+      <div class="buttons">
+        <button>Subscribe</button>
+        <button>Message</button>
+      </div>
+
+      <div class="stats">
+        <div><i class="fas fa-heart"></i> 60k</div>
+        <div><i class="fas fa-comment"></i> 20k</div>
+        <div><i class="fas fa-share"></i> 12k</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
