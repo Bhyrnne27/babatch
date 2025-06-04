@@ -20,7 +20,7 @@ const ProfileCard = () => {
       </div>
       <div className="p-6">
         <h3 className="text-lg font-semibold">Bhyrnne jabin Cejudo</h3>
-        <p className="text-gray-500 text-sm mb-4">database administrator</p>
+        <p className="text-gray-500 text-sm mb-4">data administrator</p>
 
         <div className="flex justify-center space-x-4 mb-5">
           <a href="#" className="bg-blue-600 text-white p-2 rounded-full">
